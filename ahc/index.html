@@ -1,0 +1,40 @@
+<html>
+<head>
+    <!-- NOTE: borrowed mostly from http://snarglr.com/pictures/ -->
+    <meta http-equiv="Content-type" content="text/html; charset=UTF-8" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+
+    <title>Associated Homemakers Construction LLC</title>
+
+    <!-- important note: this lib uses a very old version of photoswipe -->
+    <script src="lib/js/klass.min.js" type="text/javascript" ></script>
+    <script src="lib/js/photoswipe-3.0.4.min.js"></script>
+    <link  href="lib/css/photoswipe-3.0.4.css" type="text/css" rel="stylesheet" />
+
+    <link  href="css/flickr-photo-swipe.css" type="text/css" rel="stylesheet" />
+    <script src="js/flickr-photo-swipe.js"></script>
+    <script type="text/javascript">
+        var f = new FlickrPhotoSwipe("f795862b714e60d59e6b4585f902e563", "72157667387588573", "jkolwitz");
+    </script>
+</head>    
+<body>
+    <div id="photoheader">
+        <a href="/">Associated Homemakers Construction LLC</a>
+        <script>
+            var lb = f.flickrLinkback("See more photos on my Flickr page", " ");
+            document.writeln(lb); 
+        </script>
+        <address>
+        <div class='little'>twitter: <a href="//twitter.com/pdxhomemaker" target="#">@pdxhomemaker</a></div>
+        <div class='little'>email: <a href="mailto:jkolwitz@me.com">jkolwitz@me.com</a></div>
+        <div class='little'><a href="tel:503-516-2171">cell: 503.516.2171</a></div>
+        </address>
+        <div class='little'><a href="http://search.ccb.state.or.us/search/search_results.asp?id=191552" target="#">CCB #191552</a></div>
+    </div>
+    <div style="position:relative; margin:0 auto;">
+        <script>f.callFlickr();</script>
+    </div>
+</body>
+</html>
